@@ -1,5 +1,4 @@
 
-package com.mycompany.mavenproject7.mavenproject7.NewJFrame1;
 import javax.swing.JOptionPane;
 public class NewJFrame extends javax.swing.JFrame {
 
