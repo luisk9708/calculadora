@@ -497,7 +497,7 @@ public class NewJFrame extends javax.swing.JFrame {
     @SuppressWarnings("null")
     private void RaizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RaizActionPerformed
 if (Float.parseFloat(pantalla.getText()) < 0) {
-    JOptionPane.showMessageDialog(null, "Error: Cannot find the square root of a negative number.");
+    JOptionPane.showMessageDialog(null, "Error: no se puede encontrar la raíz cuadrada de un número negativo.");
     return;
   }
   resultado = (float) Math.sqrt(Float.parseFloat(pantalla.getText()));
